@@ -19,8 +19,6 @@ const Login = () => {
         <Image
           src="https://static.danhgiaxe.com/data/201525/aston-martin-vanquish_6443.jpg"
           className="login_logo-img"
-          width={324}
-          height={140}
         />
         <p className="login_logo-title">セラーセントラル</p>
       </div>
@@ -34,19 +32,18 @@ const Login = () => {
           <div className="login_form-email">
             <p className="login_form-label">Eメールまたは携帯電話番号</p>
             <Input
-              className="login_form-email-input"
+              className="login_form-input"
               placeholder="Eメールまたは携帯電話番号"
             />
-            <Input />
           </div>
           {/* InputPassword */}
           <div className="login_form-password">
             <div className="login_form-password-label">
               <p className="login_form-label">パスワード</p>
-              <a href="/">パスワードを忘れた場合</a>
+              <a className="login_form-password-label-link" href="/">パスワードを忘れた場合</a>
             </div>
             <Input
-              className="login_form-email-input"
+              className="login_form-input"
               placeholder="パスワード"
             />
           </div>
