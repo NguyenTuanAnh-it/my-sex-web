@@ -33,7 +33,7 @@ const Login = () => {
           <div className="login_form-email">
             <p className="login_form-label">Eメールまたは携帯電話番号</p>
             <Input
-              className="login_form-email-input"
+              className="login_form-input"
               placeholder="Eメールまたは携帯電話番号"
             />
           </div>
@@ -44,7 +44,7 @@ const Login = () => {
               <a href="/" className="login_form-password-label-link">パスワードを忘れた場合</a>
             </div>
             <Input
-              className="login_form-email-input"
+              className="login_form-input"
               placeholder="パスワード"
             />
           </div>
