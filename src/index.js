@@ -8,8 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById("root") );
 root.render(
   <React.StrictMode>
     {/* import màn trong đây */}
-    <SignUp/>
+    {/* <SignUp/> */}
     {/* <Login/> */}
-    {/* <Accept/> */}
+    <Accept/>
   </React.StrictMode>
 );
